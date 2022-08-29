@@ -88,8 +88,8 @@ a {
 
 .hero img {
     height: 300px;
-    width: 600px;
-    background-color: grey;
+    width: 700px;
+    background-color: #8b8b8b;
     flex: 0 0 auto;
 }
 
@@ -122,6 +122,12 @@ a {
     border-radius: 20px;
     height: 200px;
     width: 200px;
+}
+
+.info .text {
+    color: #8b8b8b;
+    font-size: 20px;
+    text-align: center;
 }
 
 .section-three {
