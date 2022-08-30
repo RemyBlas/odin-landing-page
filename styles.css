@@ -14,7 +14,7 @@ body {
     margin: 0;
 }
 
-button {
+.button {
     border-radius: 12px;
     height: 50px;
     width: 160px;
@@ -22,7 +22,11 @@ button {
     border: 0;
     color: white;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 600;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
@@ -56,6 +60,13 @@ a {
     display: flex;
     justify-content: flex-end;
     gap: 20px;
+    color: #c5c5c5;
+    font-weight: bold;
+}
+
+.link-header {
+    opacity: 60%;
+    font-weight: 300;
 }
 
 .hero {
@@ -68,8 +79,9 @@ a {
 .hero .left {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     font-size: 18px;
-    padding: 8px;
+    padding: 0;
     max-width: 530px;
 }
 
@@ -147,6 +159,7 @@ a {
     font-weight: bold;
     font-style: normal;
     text-align: end;
+    margin-top: 12px;
 }
 
 .section-four {
@@ -174,7 +187,7 @@ a {
     font-weight: 300;
 }
 
-.section-four button {
+.section-four .button {
     border: 3px solid #f9faf8;
 }
 
